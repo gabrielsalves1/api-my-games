@@ -4,7 +4,7 @@ const app = express();
 
 const PORT = process.env.PORT || 8877;
 
-app.get("/", (req, res) => {
+app.get("/jogos", (req, res) => {
     res.json({
         "jogos": [
             {
